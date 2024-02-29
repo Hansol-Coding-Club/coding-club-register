@@ -1,0 +1,29 @@
+.input-label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.input-box {
+    width: 100%;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: #3d3d3d;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.input-box::placeholder {
+    color: #a5a5a5;
+}
+
+.red-star {
+    color: red;
+}
+
+.input-box::-webkit-scrollbar {
+    display: none;
+}
