@@ -4,33 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="102f5f0d-7f01-446e-9e28-888747ee06fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/red.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/FirstRegisterForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/InputField.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/NextButton.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/ResultForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/SecondRegisterForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/StartForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/RouteLink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/User.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/firebase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/req.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/texts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jsx/form/FirstRegisterForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jsx/form/ResultForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jsx/form/SecondRegisterForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jsx/form/StartForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jsx/widget/InputField.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/jsx/widget/NextButton.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/coding-club-register.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/coding-club-register.iml" afterDir="false" />
+    <list default="true" id="102f5f0d-7f01-446e-9e28-888747ee06fc" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,11 +72,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709208053003</updated>
-      <workItem from="1709208054836" duration="6530000" />
+      <workItem from="1709208054836" duration="6836000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1709214777677</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1709214777677</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
