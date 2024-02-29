@@ -14,7 +14,7 @@ const NextButton = ({text = "신청하기", imgSrc = "/red.png", goto, onClick }
     return(
         <button className="button" onClick={handleNextButtonClick}>
             <span>{text}</span>
-            <img className="button-icon" src={imgSrc} alt=""/>
+            <img className="button-icon" src={`${process.env.PUBLIC_URL}/${imgSrc}`} alt=""/>
         </button>
     )
 }
