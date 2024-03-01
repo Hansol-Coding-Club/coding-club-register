@@ -16,14 +16,9 @@ const SecondRegisterForm = () => {
     const [portfolio, setPortfolio] = useState("");
 
     const handleNextClick = () => {
-        if (mal === "" || portfolio === "") {
-            alert("모든 필드를 채워주세요.");
-            return false;
-        } else {
-            User.mal = mal;
-            User.portfolio = portfolio;
-            return true;
-        }
+        User.mal = mal;
+        User.portfolio = portfolio;
+        return true;
     };
 
     return (
@@ -53,7 +48,11 @@ const SecondRegisterForm = () => {
             </div>
 
             <div style={{display: "flex", justifyContent: "center"}}>
-                <NextButton text="다음으로" goto={RESULT_PAGE} onClick={handleNextClick}/>
+                <NextButton
+                    text="다음으로"
+                    goto={RESULT_PAGE}
+                    onClick={handleNextClick}
+                />
             </div>
         </div>
     );

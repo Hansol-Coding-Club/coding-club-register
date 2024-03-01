@@ -8,8 +8,8 @@ import {db} from "../../js/firebase";
 import { ref, set } from "firebase/database";
 
 const ResultForm = () => {
-    const [title, setTitle] = useState(RESULT_FORM_TITLE);
-    const [content, setContent] = useState(RESULT_FORM_CONTENT)
+    const [title, setTitle] = useState("잠시만 기다려주세요..");
+    const [content, setContent] = useState("")
 
     const isUserEmpty = Object.values(User).every(x => (x === null));
 
@@ -18,7 +18,10 @@ const ResultForm = () => {
         setContent("");
     } else {
         set(ref(db, 'users/' + User.studentNumber), User)
-            .then(() => {})
+            .then(() => {
+                setTitle(RESULT_FORM_TITLE);
+                setContent(RESULT_FORM_CONTENT);
+            })
             .catch((error) => {
                 setTitle("데이터 전송에 실패했습니다. 오류: " + error.message);
                 setContent("처음부터 다시 시도해주십시오.")
