@@ -55,9 +55,6 @@ function resetUser(user) {
     return true;
 }
 
-// 사용 예:
-resetUser(User);
-
 function isEmpty(value) {
     return (value === "" || value === null);
 }
