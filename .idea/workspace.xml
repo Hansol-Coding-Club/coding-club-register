@@ -61,7 +61,7 @@
       <recent name="C:\Users\manne\Desktop\Webstorm Projects\coding-club-register\src\css\form" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
