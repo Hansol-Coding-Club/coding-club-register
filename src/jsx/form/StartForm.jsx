@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/StartForm.css';
+import '../../css/form/StartForm.css';
 import NextButton from "../widget/NextButton";
 import {START_FORM_CONTENT, START_FORM_TITLE} from "../../js/texts";
 import {FIRST_REGISTER_PAGE} from "../../js/RouteLink";

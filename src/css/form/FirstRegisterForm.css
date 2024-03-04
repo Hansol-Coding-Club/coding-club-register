@@ -1,0 +1,62 @@
+.container {
+    padding: 20px;
+    align-items: center;
+    margin: 0 auto;
+    width: 800px;
+}
+
+.header {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.description {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.input-student-number {
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.input-student-number > div {
+    margin-right: 30px;
+}
+
+.input-phone-number {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.input-language {
+    display: flex;
+    justify-content: space-around;
+}
+
+.description-language{
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.description-language > p {
+    font-size: 10px;
+    color: grey;
+}
+
+.input-library-framework {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.next-button-to-second-form {
+    display: flex;
+    justify-content: center;
+}

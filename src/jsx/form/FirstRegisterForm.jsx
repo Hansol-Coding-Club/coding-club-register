@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../css/FirstRegisterForm.css'
+import '../../css/form/FirstRegisterForm.css'
 import {LANGUAGE_DESCRIPTION} from "../../js/texts";
 import NextButton from "../widget/NextButton";
 import {InputField} from "../widget/InputField";
@@ -38,8 +38,8 @@ const FirstRegisterForm = () => {
         <div className="container">
             <div className="header">Codingclub 동아리 부원모집</div>
             <div className="form">
-                <div style={{display: "flex", marginLeft: '40px', marginBottom: "20px"}}>
-                    <div style={{marginRight: "30px"}}>
+                <div className="input-student-number">
+                    <div>
                         <InputField
                             label="학번" placeholder="예) 20904"
                             redStar={true}
@@ -60,10 +60,10 @@ const FirstRegisterForm = () => {
                     />
                 </div>
 
-                <div style={{display: "flex", justifyContent: "space-around", marginBottom: "20px"}}>
+                <div className="input-phone-number">
                     <InputField
                         label="전화번호"
-                        placeholder="01012345678"
+                        placeholder="010-1234-5678"
                         redStar={true}
                         width={PHONE_NUM_INPUT_WIDTH}
                         height={PHONE_NUM_INPUT_HEIGHT}
@@ -72,7 +72,7 @@ const FirstRegisterForm = () => {
                     />
                 </div>
 
-                <div style={{display: "flex", justifyContent: "space-around",}}>
+                <div className="input-language">
                     <InputField
                         label="다룰수 있는 개발 언어"
                         placeholder="없는경우 '없다' 혹은 'X'를 기입해주세요."
@@ -84,11 +84,11 @@ const FirstRegisterForm = () => {
                     />
                 </div>
 
-                <div style={{display: "flex", marginLeft: "40px", marginBottom: "20px"}}>
-                    <p style={{fontSize: '10px', color: "grey"}}>{LANGUAGE_DESCRIPTION}</p>
+                <div className="description-language">
+                    <p>{LANGUAGE_DESCRIPTION}</p>
                 </div>
 
-                <div style={{display: "flex", justifyContent: "space-around", marginBottom: "40px"}}>
+                <div className="input-library-framework">
                     <InputField
                         label="사용해본 라이브러리/프레임워크/툴 (자유 기입)"
                         placeholder="예) 유니티, 스프링, 리액트 등.."
@@ -99,14 +99,13 @@ const FirstRegisterForm = () => {
                     />
                 </div>
 
-                <div style={{display: "flex", justifyContent: "center"}}>
+                <div className="next-button-to-second-form">
                     <NextButton
                         text="다음으로"
                         goto={SECOND_REGISTER_PAGE}
                         onClick={handleNextClick}
                     />
                 </div>
-
             </div>
         </div>
     );

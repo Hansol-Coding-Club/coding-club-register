@@ -1,4 +1,4 @@
-import "../../css/NextButton.css"
+import "../../css/widget/NextButton.css"
 import { useNavigate } from 'react-router-dom';
 
 const NextButton = ({text = "신청하기", imgSrc = "/red.png", goto, onClick }) => {

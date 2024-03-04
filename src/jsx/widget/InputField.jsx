@@ -1,5 +1,5 @@
 import React from "react";
-import "../../css/InputField.css";
+import "../../css/widget/InputField.css";
 
 export const InputField = ({label, placeholder, redStar, width, height, onChange}) => {
     return (
@@ -9,7 +9,7 @@ export const InputField = ({label, placeholder, redStar, width, height, onChange
                 {redStar && <span className="red-star"> *</span>}
             </label>
             <textarea className="input-box" placeholder={placeholder} onChange={onChange}
-                    style={{width: width, height: height, whiteSpace: 'pre-wrap', overflowWrap: 'break-word', scrollbarWidth: 'none', msOverflowStyle: 'none', resize: 'none'}}
+                    style={{width: width, height: height,}}
                     onWheel={(e) => e.stopPropagation()} />
         </div>
     );
