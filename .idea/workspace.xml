@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="102f5f0d-7f01-446e-9e28-888747ee06fc" name="Changes" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/css/form/FirstRegisterForm.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/form/SecondRegisterForm.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/FirstRegisterForm.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/InputField.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/widget/InputField.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/NextButton.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/widget/NextButton.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/ResultForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/form/ResultForm.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/SecondRegisterForm.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/StartForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/form/StartForm.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jsx/form/FirstRegisterForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/form/FirstRegisterForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jsx/form/ResultForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/form/ResultForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jsx/form/SecondRegisterForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/form/SecondRegisterForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jsx/form/StartForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/form/StartForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jsx/widget/InputField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/widget/InputField.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jsx/widget/NextButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/widget/NextButton.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +99,7 @@
       <updated>1709208053003</updated>
       <workItem from="1709208054836" duration="10526000" />
       <workItem from="1709465996207" duration="676000" />
-      <workItem from="1709477524236" duration="5706000" />
+      <workItem from="1709477524236" duration="6449000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -148,7 +133,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709264777208</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit">
+      <option name="closed" value="true" />
+      <created>1709555331690</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709555331690</updated>
+    </task>
+    <task id="LOCAL-00006" summary="commit">
+      <option name="closed" value="true" />
+      <created>1709555374705</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709555374705</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

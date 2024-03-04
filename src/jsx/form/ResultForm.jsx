@@ -15,7 +15,7 @@ const ResultForm = () => {
         let isUserEmpty = (isEmpty(User.studentNumber) && isEmpty(User.name) && isEmpty(User.phoneNumber) && isEmpty(User.languague))
 
         if (isUserEmpty) {
-            setTitle("비정상적인 방법으로\n 페이지에 접근하셨습니다.");
+            setTitle("비정상적인 방법으로\n페이지에 접근하셨습니다.");
             setContent("처음부터 다시 시도해주세요.");
         } else {
             set(ref(db, 'users/' + User.studentNumber), User)
