@@ -36,13 +36,15 @@ const ResultForm = () => {
     }, []);
 
     return(
-        <div className="centered-square">
-            <p className="title">{formatStringToJsx(title)}</p>
-            <p className="context">{formatStringToJsx(content)}</p>
-            <div className="center-button">
-                <NextButton goto={START_PAGE} onClick={resetUser(User)}/>
+        <>
+            <div className="centered-square">
+                <p className="title">{formatStringToJsx(title)}</p>
+                <p className="context">{formatStringToJsx(content)}</p>
+                <div className="center-button">
+                    <NextButton goto={START_PAGE}/>
+                </div>
             </div>
-        </div>
+        </>
     );
 }
 
@@ -50,14 +52,6 @@ const formatStringToJsx = (str) => {
     return str.split('\n').map((line, index) => <React.Fragment key={index}>{line}<br/></React.Fragment>)
 }
 
-const resetUser = (user) => {
-    for (let key in user) {
-        if (user.hasOwnProperty(key)) {
-            user[key] = null;
-        }
-    }
-    return true;
-}
 
 const isEmpty = (value) => {
     return (value === "" || value === null);
