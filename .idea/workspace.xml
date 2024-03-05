@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="102f5f0d-7f01-446e-9e28-888747ee06fc" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/RouteLink.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/RouteLink.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/req.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/texts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/texts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jsx/form/FirstRegisterForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/form/FirstRegisterForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jsx/form/ResultForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/form/ResultForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jsx/form/SecondRegisterForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/form/SecondRegisterForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jsx/form/StartForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/form/StartForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jsx/widget/InputField.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/widget/InputField.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jsx/widget/NextButton.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/widget/NextButton.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +71,7 @@
       <recent name="C:\Users\manne\Desktop\Webstorm Projects\coding-club-register\src\css\form" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -105,7 +109,7 @@
       <updated>1709208053003</updated>
       <workItem from="1709208054836" duration="10526000" />
       <workItem from="1709465996207" duration="676000" />
-      <workItem from="1709477524236" duration="15789000" />
+      <workItem from="1709477524236" duration="17612000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -179,7 +183,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709612026998</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="commit">
+      <option name="closed" value="true" />
+      <created>1709640299237</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1709640299237</updated>
+    </task>
+    <task id="LOCAL-00011" summary="commit">
+      <option name="closed" value="true" />
+      <created>1709640396397</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709640396397</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

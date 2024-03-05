@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import InputField from "../widget/InputField";
 import NextButton from "../widget/NextButton";
 import "../../css/form/SecondRegisterForm.css"
-import {RESULT_PAGE} from "../../js/RouteLink";
-import {User} from "../../js/User";
+import { PAGE_ } from "../../js/RouteLink";
+import { User } from "../../js/User";
 
 const MAL_INPUT_WIDTH = "680px"
 const MAL_INPUT_HEIGHT = "300px"
@@ -50,7 +50,7 @@ const SecondRegisterForm = () => {
                 <div className="next-button-to-result">
                     <NextButton
                         text="다음으로"
-                        goto={RESULT_PAGE}
+                        goto={PAGE_.RESULT}
                         onClick={handleNextClick}
                     />
                 </div>

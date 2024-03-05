@@ -1,6 +1,4 @@
-import {Req} from "./req";
-
-export let User = new Req({
+const User = {
     studentNumber: null,
     name: null,
     phoneNumber: null,
@@ -8,4 +6,6 @@ export let User = new Req({
     libraryAndFramework: null,
     mal: null,
     portfolio: null,
-})
+}
+
+export { User }

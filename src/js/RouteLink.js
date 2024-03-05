@@ -1,4 +1,8 @@
-export const START_PAGE = "/";
-export const FIRST_REGISTER_PAGE = "/first-register-page";
-export const SECOND_REGISTER_PAGE = "/second-register-page";
-export const RESULT_PAGE = "/result-page";
+const PAGE_ = {
+    START : "/",
+    FIRST_REGISTER : "/first-register-page",
+    SECOND_REGISTER : "/second-register-page",
+    RESULT : "/result-page",
+}
+
+export { PAGE_ }

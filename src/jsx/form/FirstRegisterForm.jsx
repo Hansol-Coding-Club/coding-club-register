@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import '../../css/form/FirstRegisterForm.css'
-import {LANGUAGE_DESCRIPTION} from "../../js/texts";
+import { LANGUAGE_ } from "../../js/texts";
 import NextButton from "../widget/NextButton";
 import InputField from "../widget/InputField";
-import {SECOND_REGISTER_PAGE} from "../../js/RouteLink";
-import {User} from "../../js/User.js"
+import { PAGE_ } from "../../js/RouteLink";
+import { User } from "../../js/User.js"
 
 const NUM_INPUT_WIDTH = "325px"
 const NUM_INPUT_HEIGHT = "50px"
@@ -86,7 +86,7 @@ const FirstRegisterForm = () => {
                     </div>
 
                     <div className="description-language">
-                        <p>{LANGUAGE_DESCRIPTION}</p>
+                        <p>{LANGUAGE_.DESCRIPTION}</p>
                     </div>
 
                     <div className="input-library-framework">
@@ -103,7 +103,7 @@ const FirstRegisterForm = () => {
                     <div className="next-button-to-second-form">
                         <NextButton
                             text="다음으로"
-                            goto={SECOND_REGISTER_PAGE}
+                            goto={PAGE_.SECOND_REGISTER}
                             onClick={handleNextClick}
                         />
                     </div>
