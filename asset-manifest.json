@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/coding-club-register/static/css/main.92775b59.css",
-    "main.js": "/coding-club-register/static/js/main.367cf7f5.js",
+    "main.js": "/coding-club-register/static/js/main.dba62e6a.js",
     "static/js/453.2c7853c1.chunk.js": "/coding-club-register/static/js/453.2c7853c1.chunk.js",
     "index.html": "/coding-club-register/index.html",
     "main.92775b59.css.map": "/coding-club-register/static/css/main.92775b59.css.map",
-    "main.367cf7f5.js.map": "/coding-club-register/static/js/main.367cf7f5.js.map",
+    "main.dba62e6a.js.map": "/coding-club-register/static/js/main.dba62e6a.js.map",
     "453.2c7853c1.chunk.js.map": "/coding-club-register/static/js/453.2c7853c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92775b59.css",
-    "static/js/main.367cf7f5.js"
+    "static/js/main.dba62e6a.js"
   ]
 }
