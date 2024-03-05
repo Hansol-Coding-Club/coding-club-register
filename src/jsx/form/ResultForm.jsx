@@ -10,16 +10,11 @@ import { ref, set } from "firebase/database";
 const ResultForm = () => {
     const [title, setTitle] = useState("잠시만 기다려주세요..");
     const [content, setContent] = useState("");
-    const [showButton, setShowButton] = useState(false); // Add this line
+    const [showButton, setShowButton] = useState(false);
 
     useEffect(() => {
-        const isUserEmpty = (
-            isEmpty(User.studentNumber) &&
-            isEmpty(User.name) &&
-            isEmpty(User.phoneNumber) &&
-            isEmpty(User.language));
 
-        if (isUserEmpty) {
+        if (isUserEmpty()) {
             setTitle("비정상적인 방법으로\n페이지에 접근하셨습니다.");
             setContent("처음부터 다시 시도해주세요.");
         } else {
@@ -43,7 +38,7 @@ const ResultForm = () => {
                 <p className="title">{formatStringToJsx(title)}</p>
                 <p className="context">{formatStringToJsx(content)}</p>
                 <div className="center-button">
-                    {showButton && <NextButton goto={PAGE_.START}/>} // Modify this line
+                    {showButton && <NextButton goto={PAGE_.START}/>}
                 </div>
             </div>
         </>
@@ -58,6 +53,11 @@ const formatStringToJsx = (str) => {
     );
 }
 
+const isUserEmpty = () =>
+    isEmpty(User.studentNumber) &&
+    isEmpty(User.name) &&
+    isEmpty(User.phoneNumber) &&
+    isEmpty(User.language);
 
 const isEmpty = (value) => {
     return (value === "" || value === null);

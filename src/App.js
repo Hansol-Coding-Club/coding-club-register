@@ -8,7 +8,6 @@ import { PAGE_ } from "./js/RouteLink";
 
 function App() {
     return (
-
         <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Routes>
                 <Route path={PAGE_.START} element={<StartForm/>}/>

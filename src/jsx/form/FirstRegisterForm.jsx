@@ -50,6 +50,7 @@ const FirstRegisterForm = () => {
                                 onChange={e => setStudentNumber(e.target.value)}
                             />
                         </div>
+
                         <InputField
                             label="이름"
                             placeholder="이름을 입력해주세요."
