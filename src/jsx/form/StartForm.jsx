@@ -30,7 +30,11 @@ const resetUser = (user) => {
 }
 
 const formatStringToJsx = (str) => {
-    return str.split('\n').map((line, index) => <React.Fragment key={index}>{line}<br/></React.Fragment>)
+    return str.split('\n').map((line, index) =>
+        <React.Fragment
+            key={index}>{line}<br/>
+        </React.Fragment>
+    );
 }
 
 export default StartForm;
