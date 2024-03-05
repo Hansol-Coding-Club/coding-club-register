@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {InputField} from "../widget/InputField";
+import InputField from "../widget/InputField";
 import NextButton from "../widget/NextButton";
 import "../../css/form/SecondRegisterForm.css"
 import {RESULT_PAGE} from "../../js/RouteLink";

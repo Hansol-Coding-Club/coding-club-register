@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../../css/form/FirstRegisterForm.css'
 import {LANGUAGE_DESCRIPTION} from "../../js/texts";
 import NextButton from "../widget/NextButton";
-import {InputField} from "../widget/InputField";
+import InputField from "../widget/InputField";
 import {SECOND_REGISTER_PAGE} from "../../js/RouteLink";
 import {User} from "../../js/User.js"
 

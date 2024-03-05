@@ -17,7 +17,7 @@ const StartForm = () => {
     );
 }
 
-function formatStringToJsx(str) {
+const formatStringToJsx = (str) => {
     return str.split('\n').map((line, index) => <React.Fragment key={index}>{line}<br/></React.Fragment>)
 }
 

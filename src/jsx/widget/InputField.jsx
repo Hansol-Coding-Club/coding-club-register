@@ -1,7 +1,7 @@
 import React from "react";
 import "../../css/widget/InputField.css";
 
-export const InputField = ({label, placeholder, redStar, width, height, onChange}) => {
+const InputField = ({label, placeholder, redStar, width, height, onChange}) => {
     return (
         <div className="input-container">
             <label className="input-label">
@@ -14,3 +14,5 @@ export const InputField = ({label, placeholder, redStar, width, height, onChange
         </div>
     );
 }
+
+export default InputField;

@@ -12,7 +12,11 @@ const ResultForm = () => {
     const [content, setContent] = useState("")
 
     useEffect(() => {
-        let isUserEmpty = (isEmpty(User.studentNumber) && isEmpty(User.name) && isEmpty(User.phoneNumber) && isEmpty(User.languague))
+        const isUserEmpty = (
+            isEmpty(User.studentNumber) &&
+            isEmpty(User.name) &&
+            isEmpty(User.phoneNumber) &&
+            isEmpty(User.languague));
 
         if (isUserEmpty) {
             setTitle("비정상적인 방법으로\n페이지에 접근하셨습니다.");
@@ -42,11 +46,11 @@ const ResultForm = () => {
     );
 }
 
-function formatStringToJsx(str) {
+const formatStringToJsx = (str) => {
     return str.split('\n').map((line, index) => <React.Fragment key={index}>{line}<br/></React.Fragment>)
 }
 
-function resetUser(user) {
+const resetUser = (user) => {
     for (let key in user) {
         if (user.hasOwnProperty(key)) {
             user[key] = null;
@@ -55,7 +59,7 @@ function resetUser(user) {
     return true;
 }
 
-function isEmpty(value) {
+const isEmpty = (value) => {
     return (value === "" || value === null);
 }
 
