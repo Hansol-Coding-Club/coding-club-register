@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../css/form/StartForm.css';
+import styles from '../../css/form/StartForm.module.css';
 import NextButton from "../widget/NextButton";
 import { FORM_ } from "../../js/texts";
 import { PAGE_ } from "../../js/RouteLink";
@@ -7,12 +7,12 @@ import { User } from "../../js/User";
 
 const StartForm = () => {
     resetUser(User);
-    return(
+    return (
         <>
-            <div className="centered-square">
-                <p className="title">{formatStringToJsx(FORM_.START_TITLE)}</p>
-                <p className="context">{formatStringToJsx(FORM_.START_CONTENT)}</p>
-                <div className="center-button">
+            <div className={styles['centered-square']}>
+                <p className={styles.title}>{formatStringToJsx(FORM_.START_TITLE)}</p>
+                <p className={styles.context}>{formatStringToJsx(FORM_.START_CONTENT)}</p>
+                <div className={styles['center-button']}>
                     <NextButton goto={PAGE_.FIRST_REGISTER}/>
                 </div>
             </div>

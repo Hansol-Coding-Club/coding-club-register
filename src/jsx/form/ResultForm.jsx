@@ -2,10 +2,10 @@ import { FORM_ } from "../../js/texts";
 import NextButton from "../widget/NextButton";
 import React, {useEffect, useState} from "react";
 import { PAGE_ } from "../../js/RouteLink";
-import "../../css/form/ResultForm.css"
 import { User } from "../../js/User";
 import { db } from "../../js/firebase";
 import { ref, set } from "firebase/database";
+import styles from '../../css/form/ResultForm.module.css';
 
 const ResultForm = () => {
     const [title, setTitle] = useState("잠시만 기다려주세요..");
@@ -27,6 +27,7 @@ const ResultForm = () => {
                 .catch((error) => {
                     setTitle("데이터 전송에 실패했습니다. 오류: " + error.message);
                     setContent("처음부터 다시 시도해주십시오.");
+                    setShowButton(true);
                 });
         }
         console.log(User);
@@ -34,10 +35,10 @@ const ResultForm = () => {
 
     return(
         <>
-            <div className="centered-square">
-                <p className="title">{formatStringToJsx(title)}</p>
-                <p className="context">{formatStringToJsx(content)}</p>
-                <div className="center-button">
+            <div className={styles['centered-square']}>
+                <p className={styles.title}>{formatStringToJsx(title)}</p>
+                <p className={styles.context}>{formatStringToJsx(content)}</p>
+                <div className={styles['center-button']}>
                     {showButton && <NextButton goto={PAGE_.START}/>}
                 </div>
             </div>

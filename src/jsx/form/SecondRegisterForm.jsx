@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import InputField from "../widget/InputField";
 import NextButton from "../widget/NextButton";
-import "../../css/form/SecondRegisterForm.css"
+import styles from '../../css/form/SecondRegisterForm.module.css';
 import { PAGE_ } from "../../js/RouteLink";
 import { User } from "../../js/User";
 
@@ -23,9 +23,9 @@ const SecondRegisterForm = () => {
 
     return (
         <>
-            <div className="container">
-                <div className="header">Codingclub 동아리 부원모집</div>
-                <div className="input-mal">
+            <div className={styles.container}>
+                <div className={styles.header}>Codingclub 동아리 부원모집</div>
+                <div className={styles['input-mal']}>
                     <InputField
                         label="하고싶은 말 (자유 기입)"
                         placeholder="하고싶은 말을 자유롭게 작성해주세요."
@@ -36,7 +36,7 @@ const SecondRegisterForm = () => {
                     />
                 </div>
 
-                <div className="input-portfolio">
+                <div className={styles['input-portfolio']}>
                     <InputField
                         label="포트폴리오 (있을시에만 기입)"
                         placeholder="http://"
@@ -47,7 +47,7 @@ const SecondRegisterForm = () => {
                     />
                 </div>
 
-                <div className="next-button-to-result">
+                <div className={styles['next-button-to-result']}>
                     <NextButton
                         text="다음으로"
                         goto={PAGE_.RESULT}

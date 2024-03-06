@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../css/form/FirstRegisterForm.css'
+import styles from '../../css/form/FirstRegisterForm.module.css';
 import { LANGUAGE_ } from "../../js/texts";
 import NextButton from "../widget/NextButton";
 import InputField from "../widget/InputField";
@@ -58,10 +58,10 @@ const FirstRegisterForm = () => {
     return (
         <>
             <WarningToast/>
-            <div className="container">
-                <div className="header">Codingclub 동아리 부원모집</div>
-                <div className="form">
-                    <div className="input-student-number">
+            <div className={styles.container}>
+                <div className={styles.header}>Codingclub 동아리 부원모집</div>
+                <div className={styles.form}>
+                    <div className={styles['input-student-number']}>
                         <div>
                             <InputField
                                 label="학번" placeholder="예) 20904"
@@ -84,7 +84,7 @@ const FirstRegisterForm = () => {
                         />
                     </div>
 
-                    <div className="input-phone-number">
+                    <div className={styles['input-phone-number']}>
                         <InputField
                             label="전화번호"
                             placeholder="010-1234-5678"
@@ -96,7 +96,7 @@ const FirstRegisterForm = () => {
                         />
                     </div>
 
-                    <div className="input-language">
+                    <div className={styles['input-language']}>
                         <InputField
                             label="다룰수 있는 개발 언어"
                             placeholder="없는경우 '없다' 혹은 'X'를 기입해주세요."
@@ -108,11 +108,11 @@ const FirstRegisterForm = () => {
                         />
                     </div>
 
-                    <div className="description-language">
+                    <div className={styles['description-language']}>
                         <p>{LANGUAGE_.DESCRIPTION}</p>
                     </div>
 
-                    <div className="input-library-framework">
+                    <div className={styles['input-library-framework']}>
                         <InputField
                             label="사용해본 라이브러리/프레임워크/툴 (자유 기입)"
                             placeholder="예) 유니티, 스프링, 리액트 등.."
@@ -123,7 +123,7 @@ const FirstRegisterForm = () => {
                         />
                     </div>
 
-                    <div className="next-button-to-second-form">
+                    <div className={styles['next-button-to-second-form']}>
                         <NextButton
                             text="다음으로"
                             goto={PAGE_.SECOND_REGISTER}
