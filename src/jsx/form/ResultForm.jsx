@@ -22,7 +22,7 @@ const ResultForm = () => {
                 .then(() => {
                     setTitle(FORM_.RESULT_TITLE);
                     setContent(FORM_.RESULT_CONTENT);
-                    setShowButton(true); // Add this line
+                    setShowButton(true);
                 })
                 .catch((error) => {
                     setTitle("데이터 전송에 실패했습니다. 오류: " + error.message);
