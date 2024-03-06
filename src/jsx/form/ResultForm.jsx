@@ -26,7 +26,7 @@ const ResultForm = () => {
                 })
                 .catch((error) => {
                     setTitle("데이터 전송에 실패했습니다. 오류: " + error.message);
-                    setContent("처음부터 다시 시도해주십시오.")
+                    setContent("처음부터 다시 시도해주십시오.");
                 });
         }
         console.log(User);
