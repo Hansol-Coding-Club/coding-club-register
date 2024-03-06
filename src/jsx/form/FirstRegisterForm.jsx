@@ -5,7 +5,12 @@ import NextButton from "../widget/NextButton";
 import InputField from "../widget/InputField";
 import { PAGE_ } from "../../js/RouteLink";
 import { User } from "../../js/User.js"
-import {showWarningToast, WarningToast} from "../widget/WarningToast";
+import {
+    inputEmptyWarning,
+    phoneNumberInvalidWarning,
+    studentNumberInvalidWarning,
+    WarningToast
+} from "../widget/WarningToast";
 
 const NUM_INPUT_WIDTH = "325px"
 const NUM_INPUT_HEIGHT = "50px"
@@ -14,24 +19,41 @@ const PHONE_NUM_INPUT_WIDTH = "680px"
 const PHONE_NUM_INPUT_HEIGHT = "50px"
 
 
+
 const FirstRegisterForm = () => {
     const [studentNumber, setStudentNumber] = useState("");
     const [name, setName] = useState("");
     const [phoneNumber, setPhoneNumber] = useState("");
     const [language, setLanguage] = useState("");
     const [libraryAndFramework, setLibraryAndFramework] = useState("");
+
     const handleNextClick = () => {
+        let warning;
+
         if (studentNumber === "" || name === "" || phoneNumber === "" || language === "") {
-            showWarningToast();
-            return false;
-        } else {
-            User.studentNumber = studentNumber;
-            User.name = name;
-            User.phoneNumber = phoneNumber;
-            User.languague = language;
-            User.libraryAndFramework = libraryAndFramework;
-            return true;
+            inputEmptyWarning();
+            warning = false;
         }
+
+        if (!isValidStudentNumber(studentNumber)) {
+            studentNumberInvalidWarning();
+            warning = false;
+        }
+
+        if (!isValidPhoneNumber(phoneNumber)) {
+            phoneNumberInvalidWarning();
+            warning = false;
+        }
+
+        if (!warning) return warning;
+
+        User.studentNumber = studentNumber;
+        User.name = name;
+        User.phoneNumber = phoneNumber;
+        User.languague = language;
+        User.libraryAndFramework = libraryAndFramework;
+        return true;
+
     };
 
     return (
@@ -115,5 +137,14 @@ const FirstRegisterForm = () => {
     );
 };
 
+const isValidStudentNumber = (studentNumber) => {
+    const regex = /^\d{5}$/;
+    return regex.test(studentNumber);
+}
+
+const isValidPhoneNumber = (phoneNumber) => {
+    const regex = /^01(?:0|1|[6-9])(?:-?\d{4}){2}$/;
+    return regex.test(phoneNumber);
+}
 
 export default FirstRegisterForm;

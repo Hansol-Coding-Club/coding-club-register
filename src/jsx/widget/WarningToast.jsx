@@ -8,7 +8,7 @@ const WarningToast = () => {
         <>
             <ToastContainer
                 position="top-center"
-                autoClose={1300}
+                autoClose={1700}
                 hideProgressBar={false}
                 closeOnClick
                 rtl={false}
@@ -21,7 +21,8 @@ const WarningToast = () => {
     );
 }
 
-const showWarningToast = () => toast.error("모든 필수 필드를 채워주세요.")
+const inputEmptyWarning = () => toast.error("모든 필수 필드를 채워주세요.");
+const studentNumberInvalidWarning = () => toast.error("학번은 숫자 5글자로 입력해주세요");
+const phoneNumberInvalidWarning = () => toast.error("올바른 형식의 전화번호를 입력해주세요");
 
-
-export { WarningToast, showWarningToast };
+export { WarningToast, inputEmptyWarning, studentNumberInvalidWarning, phoneNumberInvalidWarning };
