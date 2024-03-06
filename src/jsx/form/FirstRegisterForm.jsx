@@ -5,6 +5,7 @@ import NextButton from "../widget/NextButton";
 import InputField from "../widget/InputField";
 import { PAGE_ } from "../../js/RouteLink";
 import { User } from "../../js/User.js"
+import {showWarningToast, WarningToast} from "../widget/WarningToast";
 
 const NUM_INPUT_WIDTH = "325px"
 const NUM_INPUT_HEIGHT = "50px"
@@ -19,10 +20,9 @@ const FirstRegisterForm = () => {
     const [phoneNumber, setPhoneNumber] = useState("");
     const [language, setLanguage] = useState("");
     const [libraryAndFramework, setLibraryAndFramework] = useState("");
-
     const handleNextClick = () => {
         if (studentNumber === "" || name === "" || phoneNumber === "" || language === "") {
-            alert("모든 필수 필드를 채워주세요.");
+            showWarningToast();
             return false;
         } else {
             User.studentNumber = studentNumber;
@@ -36,6 +36,7 @@ const FirstRegisterForm = () => {
 
     return (
         <>
+            <WarningToast/>
             <div className="container">
                 <div className="header">Codingclub 동아리 부원모집</div>
                 <div className="form">
@@ -111,7 +112,6 @@ const FirstRegisterForm = () => {
                 </div>
             </div>
         </>
-
     );
 };
 
