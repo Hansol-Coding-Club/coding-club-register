@@ -30,6 +30,12 @@ const FirstRegisterForm = () => {
     const handleNextClick = () => {
         let warning;
 
+        User.studentNumber = studentNumber;
+        User.name = name;
+        User.phoneNumber = phoneNumber;
+        User.language = language;
+        User.libraryAndFramework = libraryAndFramework;
+
         if (studentNumber === "" || name === "" || phoneNumber === "" || language === "") {
             inputEmptyWarning();
             warning = false;
@@ -46,12 +52,6 @@ const FirstRegisterForm = () => {
         }
 
         if (!warning) return warning;
-
-        User.studentNumber = studentNumber;
-        User.name = name;
-        User.phoneNumber = phoneNumber;
-        User.languague = language;
-        User.libraryAndFramework = libraryAndFramework;
         return true;
     };
 
@@ -129,7 +129,6 @@ const FirstRegisterForm = () => {
                             onClick={handleNextClick}
                         />
                     </div>
-
             </div>
         </>
     );
