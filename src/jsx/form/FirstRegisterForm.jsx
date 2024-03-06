@@ -35,12 +35,12 @@ const FirstRegisterForm = () => {
             warning = false;
         }
 
-        if (!isValidStudentNumber(studentNumber)) {
+        if (isInvalidStudentNumber(studentNumber)) {
             studentNumberInvalidWarning();
             warning = false;
         }
 
-        if (!isValidPhoneNumber(phoneNumber)) {
+        if (isInvalidPhoneNumber(phoneNumber)) {
             phoneNumberInvalidWarning();
             warning = false;
         }
@@ -136,14 +136,14 @@ const FirstRegisterForm = () => {
     );
 };
 
-const isValidStudentNumber = (studentNumber) => {
+const isInvalidStudentNumber = (studentNumber) => {
     const regex = /^\d{5}$/;
-    return regex.test(studentNumber);
+    return !(regex.test(studentNumber));
 }
 
-const isValidPhoneNumber = (phoneNumber) => {
+const isInvalidPhoneNumber = (phoneNumber) => {
     const regex = /^01(?:0|1|[6-9])(?:-?\d{4}){2}$/;
-    return regex.test(phoneNumber);
+    return !(regex.test(phoneNumber));
 }
 
 export default FirstRegisterForm;
