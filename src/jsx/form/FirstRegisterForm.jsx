@@ -60,7 +60,6 @@ const FirstRegisterForm = () => {
             <WarningToast/>
             <div className={styles.container}>
                 <div className={styles.header}>Codingclub 동아리 부원모집</div>
-                <div className={styles.form}>
                     <div className={styles['input-student-number']}>
                         <div>
                             <InputField
@@ -130,7 +129,7 @@ const FirstRegisterForm = () => {
                             onClick={handleNextClick}
                         />
                     </div>
-                </div>
+
             </div>
         </>
     );

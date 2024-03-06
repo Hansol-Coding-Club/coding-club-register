@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="102f5f0d-7f01-446e-9e28-888747ee06fc" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/form/FirstRegisterForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/form/FirstRegisterForm.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/form/ResultForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/form/ResultForm.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/form/SecondRegisterForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/form/SecondRegisterForm.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/form/StartForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/form/StartForm.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jsx/form/FirstRegisterForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/form/FirstRegisterForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jsx/form/ResultForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/form/ResultForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jsx/form/SecondRegisterForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/form/SecondRegisterForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jsx/form/StartForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/form/StartForm.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +103,7 @@
       <updated>1709208053003</updated>
       <workItem from="1709208054836" duration="10526000" />
       <workItem from="1709465996207" duration="676000" />
-      <workItem from="1709477524236" duration="29253000" />
+      <workItem from="1709477524236" duration="29554000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -289,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709711265577</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="commit">
+      <option name="closed" value="true" />
+      <created>1709719911168</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1709719911168</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
