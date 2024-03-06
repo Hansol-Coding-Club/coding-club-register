@@ -53,7 +53,6 @@ const FirstRegisterForm = () => {
         User.languague = language;
         User.libraryAndFramework = libraryAndFramework;
         return true;
-
     };
 
     return (
