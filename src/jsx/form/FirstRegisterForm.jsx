@@ -30,11 +30,11 @@ const FirstRegisterForm = () => {
     const handleNextClick = () => {
         let warning;
 
-        User.studentNumber = studentNumber;
-        User.name = name;
-        User.phoneNumber = phoneNumber;
-        User.language = language;
-        User.libraryAndFramework = libraryAndFramework;
+        User.학번 = studentNumber;
+        User.이름 = name;
+        User.전화번호 = phoneNumber;
+        User.언어 = language;
+        User.라이브러리프레임워크 = libraryAndFramework;
 
         if (studentNumber === "" || name === "" || phoneNumber === "" || language === "") {
             inputEmptyWarning();

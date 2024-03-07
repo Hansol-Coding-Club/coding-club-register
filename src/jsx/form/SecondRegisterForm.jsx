@@ -16,8 +16,8 @@ const SecondRegisterForm = () => {
     const [portfolio, setPortfolio] = useState("");
 
     const handleNextClick = () => {
-        User.mal = mal;
-        User.portfolio = portfolio;
+        User.하고싶은말 = mal;
+        User.포트폴리오 = portfolio;
         return true;
     };
 

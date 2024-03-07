@@ -13,13 +13,14 @@ const ResultForm = () => {
     const [showButton, setShowButton] = useState(false);
 
     useEffect(() => {
+        User.제출시간 = getCurrentDateTime();
 
         if (isUserEmpty()) {
             setTitle("비정상적인 방법으로\n페이지에 접근하셨습니다.");
             setContent("처음부터 다시 시도해주세요.");
             setShowButton(true);
         } else {
-            set(ref(db, 'users/' + User.studentNumber), User)
+            set(ref(db, 'users/' + User.학번), User)
                 .then(() => {
                     setTitle(FORM_.RESULT_TITLE);
                     setContent(FORM_.RESULT_CONTENT);
@@ -55,14 +56,25 @@ const formatStringToJsx = (str) => {
     );
 }
 
-const isUserEmpty = () =>
-    isEmpty(User.studentNumber) &&
-    isEmpty(User.name) &&
-    isEmpty(User.phoneNumber) &&
-    isEmpty(User.language);
+const isUserEmpty = () => (
+    isEmpty(User.학번) &&
+    isEmpty(User.이름) &&
+    isEmpty(User.전화번호) &&
+    isEmpty(User.언어));
 
 const isEmpty = (value) => {
     return (value === "" || value === null);
+}
+
+const getCurrentDateTime = () => {
+    const now = new Date();
+    const year = now.getFullYear();
+    const month = (now.getMonth() + 1).toString().padStart(2, '0');
+    const day = now.getDate().toString().padStart(2, '0');
+    const hours = now.getHours().toString().padStart(2, '0');
+    const minutes = now.getMinutes().toString().padStart(2, '0');
+    const seconds = now.getSeconds().toString().padStart(2, '0');
+    return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
 }
 
 export default ResultForm;
