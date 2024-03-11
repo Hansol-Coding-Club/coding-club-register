@@ -44,6 +44,7 @@ const valueInvalidWarning = () => {
         draggable: true,
         pauseOnHover: true,
         theme: "dark",
+        limit: 1,
     });
 }
 

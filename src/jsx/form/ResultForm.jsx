@@ -51,9 +51,17 @@ const ResultForm = () => {
             },
             {
                 position: "top-center",
+                autoClose: 3000,
+                hideProgressBar: false,
+                closeOnClick: true,
+                rtl: false,
+                pauseOnFocusLoss: true,
+                draggable: true,
+                pauseOnHover: true,
                 theme: "dark",
+                limit: 1,
             }
-        ).then(r => {});
+        ).then(r => {console.log(r)});
 
     }, []);
 
