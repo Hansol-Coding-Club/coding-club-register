@@ -113,7 +113,7 @@ const FirstRegisterForm = () => {
 
                     <div className={styles['input-library-framework']}>
                         <InputField
-                            label="사용해본 라이브러리/프레임워크/툴 (자유 기입)"
+                            label="사용해본 외부 라이브러리/프레임워크/툴 (자유 기입)"
                             placeholder="예) 유니티, 스프링, 리액트 등.."
                             width={PHONE_NUM_INPUT_WIDTH}
                             height={PHONE_NUM_INPUT_HEIGHT}
