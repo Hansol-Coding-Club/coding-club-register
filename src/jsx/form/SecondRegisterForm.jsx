@@ -5,10 +5,10 @@ import styles from '../../css/form/SecondRegisterForm.module.css';
 import { PAGE_ } from "../../js/RouteLink";
 import { User } from "../../js/User";
 
-const MAL_INPUT_WIDTH = "680px"
+const MAL_INPUT_WIDTH = "90vw"
 const MAL_INPUT_HEIGHT = "300px"
 
-const PORTFOLIO_INPUT_WIDTH = "680px"
+const PORTFOLIO_INPUT_WIDTH = "90vw"
 const PORTFOLIO_INPUT_HEIGHT = "50px"
 
 const SecondRegisterForm = () => {
