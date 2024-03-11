@@ -1,20 +1,21 @@
 .title {
     color: white;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: bolder;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .context {
     text-align: center;
     font-size: 0.8rem;
-    color: grey;
+    color: #c0c0c0;
+    margin-bottom: 32px;
 }
 
 .center-button {
     position: absolute;
-    margin-top: 70px;
+    margin-top: 80px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -27,4 +28,39 @@
     width: 400px;
     height: 400px;
     transform: translate(-50%, -50%);
+}
+
+.rainbow {
+    width: 50%;
+    height: 2px;
+    margin: 40px auto;
+    background-image: linear-gradient(to left, #D5738B, #F1B1B1, #9446E1, #57EAF1);
+
+}
+
+@media screen and (max-width:512px) {
+    .title {
+        font-size: 24px;
+    }
+    
+    .context {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    
+    .center-button {
+        margin-top: 80px;
+    }
+    
+    .centered-square {
+        width: 90vw;
+        height: 90vw;
+    }
+
+    .rainbow {
+        width: 50%;
+        height: 2px;
+        background-image: linear-gradient(to left, #D5738B, #F1B1B1, #9446E1, #57EAF1);
+        margin: 0 auto;
+  }
 }

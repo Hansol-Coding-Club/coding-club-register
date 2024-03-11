@@ -12,11 +12,11 @@ import {
     WarningToast
 } from "../widget/WarningToast";
 
-const NUM_INPUT_WIDTH = "325px"
-const NUM_INPUT_HEIGHT = "50px"
+const NUM_INPUT_WIDTH = "43vw"
+const NUM_INPUT_HEIGHT = "45px"
 
-const PHONE_NUM_INPUT_WIDTH = "680px"
-const PHONE_NUM_INPUT_HEIGHT = "50px"
+const PHONE_NUM_INPUT_WIDTH = "90vw"
+const PHONE_NUM_INPUT_HEIGHT = "45px"
 
 
 
@@ -59,22 +59,23 @@ const FirstRegisterForm = () => {
         <>
             <WarningToast/>
             <div className={styles.container}>
-                <div className={styles.header}>Codingclub 동아리 부원모집</div>
-                    <div className={styles['input-student-number']}>
-                        <div>
-                            <InputField
-                                label="학번" placeholder="예) 20904"
-                                redStar={true}
-                                width={NUM_INPUT_WIDTH}
-                                height={NUM_INPUT_HEIGHT}
-                                value={studentNumber}
-                                onChange={e => setStudentNumber(e.target.value)}
-                            />
-                        </div>
+                <div className={styles.header}>Codingbu 동아리 부원모집</div>
+                <div className={styles['input-student-number']}>
+                    <div className={styles.studentNumber}>
+                        <InputField
+                            label="학번" placeholder="예) 20904"
+                            redStar={true}
+                            width={NUM_INPUT_WIDTH}
+                            height={NUM_INPUT_HEIGHT}
+                            value={studentNumber}
+                            onChange={e => setStudentNumber(e.target.value)}
+                        />
+                    </div>
 
+                    <div className={styles.name}>
                         <InputField
                             label="이름"
-                            placeholder="이름을 입력해주세요."
+                            placeholder="예) 홍길동"
                             redStar={true}
                             width={NUM_INPUT_WIDTH}
                             height={NUM_INPUT_HEIGHT}
@@ -83,52 +84,55 @@ const FirstRegisterForm = () => {
                         />
                     </div>
 
-                    <div className={styles['input-phone-number']}>
-                        <InputField
-                            label="전화번호"
-                            placeholder="010-1234-5678"
-                            redStar={true}
-                            width={PHONE_NUM_INPUT_WIDTH}
-                            height={PHONE_NUM_INPUT_HEIGHT}
-                            value={phoneNumber}
-                            onChange={e => setPhoneNumber(e.target.value)}
-                        />
-                    </div>
+                </div>
 
-                    <div className={styles['input-language']}>
-                        <InputField
-                            label="다룰수 있는 개발 언어"
-                            placeholder="없는경우 '없다' 혹은 'X'를 기입해주세요."
-                            redStar={true}
-                            width={PHONE_NUM_INPUT_WIDTH}
-                            height={PHONE_NUM_INPUT_HEIGHT}
-                            value={language}
-                            onChange={e => setLanguage(e.target.value)}
-                        />
-                    </div>
+                <div className={styles['input-phone-number']}>
+                    <InputField
+                        label="전화번호"
+                        placeholder="010-1234-5678"
+                        redStar={true}
+                        width={PHONE_NUM_INPUT_WIDTH}
+                        height={PHONE_NUM_INPUT_HEIGHT}
+                        value={phoneNumber}
+                        onChange={e => setPhoneNumber(e.target.value)}
+                    />
+                </div>
 
-                    <div className={styles['description-language']}>
-                        <p>{LANGUAGE_.DESCRIPTION}</p>
-                    </div>
+                <div className={styles['input-language']}>
+                    <InputField
+                        label="다룰 수 있는 개발 언어"
+                        placeholder="없는 경우 '없다' 혹은 'X'를 기입해주세요."
+                        redStar={true}
+                        width={PHONE_NUM_INPUT_WIDTH}
+                        height={PHONE_NUM_INPUT_HEIGHT}
+                        value={language}
+                        onChange={e => setLanguage(e.target.value)}
+                    />
+                </div>
 
-                    <div className={styles['input-library-framework']}>
-                        <InputField
-                            label="사용해본 외부 라이브러리/프레임워크/툴 (자유 기입)"
-                            placeholder="예) 유니티, 스프링, 리액트 등.."
-                            width={PHONE_NUM_INPUT_WIDTH}
-                            height={PHONE_NUM_INPUT_HEIGHT}
-                            value={libraryAndFramework}
-                            onChange={e => setLibraryAndFramework(e.target.value)}
-                        />
-                    </div>
+                <div className={styles['description-language']}>
+                    <p>{LANGUAGE_.DESCRIPTION}</p>
+                </div>
 
-                    <div className={styles['next-button-to-second-form']}>
-                        <NextButton
-                            text="다음으로"
-                            goto={PAGE_.SECOND_REGISTER}
-                            onClick={handleNextClick}
-                        />
-                    </div>
+                <div className={styles['input-library-framework']}>
+                    <InputField
+                        label="사용해본 라이브러리/프레임워크/툴 (자유 기입)"
+                        placeholder="예) 유니티, 스프링, 리액트 등.."
+                        width={PHONE_NUM_INPUT_WIDTH}
+                        height={PHONE_NUM_INPUT_HEIGHT}
+                        value={libraryAndFramework}
+                        onChange={e => setLibraryAndFramework(e.target.value)}
+                    />
+                </div>
+
+                <div className={styles['next-button-to-second-form']}>
+                    <NextButton
+                        text="다음으로"
+                        goto={PAGE_.SECOND_REGISTER}
+                        onClick={handleNextClick}
+                        imgSrc='/NextIcon.png'
+                    />
+                </div>
             </div>
         </>
     );

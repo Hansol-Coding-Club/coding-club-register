@@ -8,8 +8,8 @@
 
 .input-box {
     width: 100%;
-    padding: 15px;
-    border-radius: 10px;
+    padding: 13px;
+    border-radius: 9px;
     border: none;
     background-color: #3d3d3d;
     color: white;
@@ -23,6 +23,7 @@
 
 .input-box::placeholder {
     color: #a5a5a5;
+    font-size: 14px;
 }
 
 .red-star {

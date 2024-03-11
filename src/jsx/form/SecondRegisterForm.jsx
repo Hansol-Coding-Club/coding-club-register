@@ -52,6 +52,7 @@ const SecondRegisterForm = () => {
                         text="다음으로"
                         goto={PAGE_.RESULT}
                         onClick={handleNextClick}
+                        imgSrc={"/NextIcon.png"}
                     />
                 </div>
             </div>

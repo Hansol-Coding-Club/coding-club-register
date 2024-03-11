@@ -18,6 +18,7 @@ const ResultForm = () => {
     useEffect(() => {
         User.제출시간 = getCurrentDateTime();
 
+        console.log(User)
         if (isUserEmpty()) {
             setTitle("비정상적인 방법으로\n페이지에 접근하셨습니다.");
             setContent("처음부터 다시 시도해주세요.");
@@ -72,7 +73,7 @@ const ResultForm = () => {
                 <p className={styles.title}>{formatStringToJsx(title)}</p>
                 <p className={styles.context}>{formatStringToJsx(content)}</p>
                 <div className={styles['center-button']}>
-                    {showButton && <NextButton goto={PAGE_.START}/>}
+                    {showButton && <NextButton goto={PAGE_.START} imgSrc={"/NextIcon.png"}/>}
                 </div>
             </div>
         </>

@@ -10,15 +10,15 @@
 .title {
     color: white;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.6em;
     font-weight: bolder;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .context {
     text-align: center;
     font-size: 0.8rem;
-    color: grey;
+    color: #c0c0c0;
 }
 
 .center-button {
@@ -28,3 +28,31 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+
+@media screen and (max-width:512px) {
+    .title {
+        font-size: 24px;
+    }
+    
+    .context {
+        font-size: 12px;
+    }
+    
+    .center-button {
+        margin-top: 40px;
+    }
+    
+    .centered-square {
+        width: 90vw;
+        height: 90vw;
+    }
+
+    .rainbow {
+        width: 20%;
+        margin-top: 40px;
+        color: red;
+
+    }
+
+  }

@@ -12,6 +12,7 @@ const StartForm = () => {
             <div className={styles['centered-square']}>
                 <p className={styles.title}>{formatStringToJsx(FORM_.START_TITLE)}</p>
                 <p className={styles.context}>{formatStringToJsx(FORM_.START_CONTENT)}</p>
+                <div className={styles.rainbow}></div>
                 <div className={styles['center-button']}>
                     <NextButton goto={PAGE_.FIRST_REGISTER}/>
                 </div>

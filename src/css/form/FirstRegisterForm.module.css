@@ -2,7 +2,7 @@
     padding: 20px;
     align-items: center;
     margin: 0 auto;
-    width: 800px;
+    width: 100%
 }
 
 .header {
@@ -20,12 +20,12 @@
 
 .input-student-number {
     display: flex;
-    margin-left: 40px;
     margin-bottom: 20px;
+    justify-content: space-around;
 }
 
-.input-student-number > div {
-    margin-right: 30px;
+.studentNumber{
+    margin-right: 2vw;
 }
 
 .input-phone-number {
@@ -41,13 +41,10 @@
 
 .description-language{
     display: flex;
-    margin-left: 40px;
     margin-bottom: 20px;
-}
-
-.description-language > p {
+    justify-content: space-around;
     font-size: 10px;
-    color: grey;
+    color: #c0c0c0;
 }
 
 .input-library-framework {
@@ -60,3 +57,24 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width:512px) {
+    .description {
+        font-size: 14px;
+        margin-top: 8px;
+        margin-bottom: 20px;
+    }
+    
+    .input-library-framework {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 40px;
+    }
+    
+    .next-button-to-second-form {
+        display: flex;
+        justify-content: center;
+    }
+
+  }
+  
