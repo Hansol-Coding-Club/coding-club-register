@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="102f5f0d-7f01-446e-9e28-888747ee06fc" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copilot/chatSessions/00000000000.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jsx/form/FirstRegisterForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/form/FirstRegisterForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jsx/form/ResultForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/form/ResultForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/jsx/form/SecondRegisterForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/form/SecondRegisterForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jsx/widget/WarningToast.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/jsx/widget/WarningToast.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +20,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JSX File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="JSX File" />
       </list>
     </option>
   </component>
@@ -30,6 +31,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Monkshark&quot;
+  }
+}</component>
+  <component name="GitHubPullRequestState">{
+  &quot;prStates&quot;: []
+}</component>
+  <component name="GitLabMergeRequestsSettings">{}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Hansol-Coding-Club/coding-club-register.git&quot;,
+    &quot;accountId&quot;: &quot;2c7cf934-9e2c-4995-98c9-f90892ae2f0c&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -50,7 +67,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/manne/Desktop/coding-club-register&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/manne/Desktop/Webstorm Projects/JariBakkugi&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -60,7 +77,7 @@
     &quot;npm.deploy.executor&quot;: &quot;Run&quot;,
     &quot;npm.npm run.executor&quot;: &quot;Run&quot;,
     &quot;npm.npm start.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;power.mode.ii&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\manne\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -99,6 +116,13 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-WS-241.14494.25" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -110,7 +134,14 @@
       <workItem from="1709208054836" duration="10526000" />
       <workItem from="1709465996207" duration="676000" />
       <workItem from="1709477524236" duration="38802000" />
-      <workItem from="1709737268736" duration="4971000" />
+      <workItem from="1709737268736" duration="10385000" />
+      <workItem from="1709821172979" duration="2588000" />
+      <workItem from="1709876088924" duration="1750000" />
+      <workItem from="1709957795419" duration="623000" />
+      <workItem from="1709958557807" duration="43000" />
+      <workItem from="1709958761050" duration="95000" />
+      <workItem from="1709959586492" duration="89000" />
+      <workItem from="1709959750900" duration="7898000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -312,7 +343,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709721724580</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="commit">
+      <option name="closed" value="true" />
+      <created>1709792937252</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1709792937252</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
