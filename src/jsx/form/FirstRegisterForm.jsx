@@ -148,4 +148,4 @@ const isInvalidPhoneNumber = (phoneNumber) => {
     return !(regex.test(phoneNumber));
 }
 
-export default FirstRegisterForm;
+export default FirstRegisterForm; 
